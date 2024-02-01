@@ -1,3 +1,3 @@
 git add -A
-git commit -m "márioMendonça"
+git commit -m "MárioMendonça"
 git push
