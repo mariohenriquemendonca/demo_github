@@ -5,27 +5,73 @@
     <!-- chamada de CSS-->
     <!-- chamada de js-->
     <!-- meta tags para facebook, google, etc -->
+    <style>
+        #menu{width: 100%; margin: 0;}
+        #menu a{
+            display: inline-block;
+            width: 20%;
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        #menu a:hover {
+            background: red;
+        }
+        .blue{
+            color: blue;
+        }
+        #links a {
+            margin: 20px;
+        }
+        #links a.red{
+            color: red;
+        }
+
+
+
+            
+    </style>
+
+
+
+
+
 </head> 
 
 <body> <!--estrutura do site -->
-    <h1>A nossa primeira aula</h1>
-    <h2>O meu sub-titulo</h2>
-    <h3>O meu sub sub titulo</h3>
-    <!--existem 6 tipos de titulos do h1 ao h6-->
-    <!--h significa heading, heading1, heading2 -->
-    <p>O meu paragrafo, bla bla bla.</p>
-    <p>Mais um paragrafo, etc etc...</p>
-    <img src="youtube.png" alt="youtube" width="300"/>
-    <!--
-        imagem com 3 parametros
-        img = imagem,src = source, alt = alternate 
-    -->
-    <a href="https://www.google.com" title = "Google" target = "_blank">Google</a>
-    <!--
-        a = ancora, href = pagina abrir, taget blank = novo separador
-    -->
-    <a href ="https://www.youtube.com/watch?v=DrotfW1PacU" title = "Youtube" target = "_blank">Youtube</a>
-
+    <dv id="menu">
+        <a href="page.html" title="Menu 1" target="_self">Menu 1</a>
+        <a href="page.html" title="Menu 2" target="_self">Menu 2</a>
+        <a href="page.html" title="Menu 3" target="_self">Menu 3</a>
+        <a href="page.html" title="Menu 4" target="_self">Menu 4</a>                                                                             
+    </dv>
+    
+    
+    
+    <div id="titles">
+        <h1 class="blue">A nossa primeira aula</h1>
+        <h2 class="blue">O meu sub-titulo</h2>
+        <h3 class="blue">O meu sub sub titulo</h3>
+    </div>
+        <!--existem 6 tipos de titulos do h1 ao h6-->
+        <!--h significa heading, heading1, heading2 -->
+    <div style=" background: black; color: white;" >
+        <p>O meu paragrafo, bla bla bla.</p>
+        <p>Mais um paragrafo, etc etc...</p>
+        <img src="youtube.png" alt="youtube" width="300"/>
+    </div>
+        <!--
+            imagem com 3 parametros
+            img = imagem,src = source, alt = alternate 
+        -->
+    <div>
+        <a href="https://www.google.com" title = "Google" target = "_blank">Google</a>
+        <!--
+            a = ancora, href = pagina abrir, taget blank = novo separador
+        -->
+        <a href ="https://www.youtube.com/watch?v=DrotfW1PacU" title = "Youtube" target = "_blank">Youtube</a>
+    </div>
 </body>
 
 </html>
